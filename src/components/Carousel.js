@@ -2,6 +2,9 @@ import React from "react";
 import betting from "../Assets/images/betting.png";
 import burger from "../Assets/images/burger.JPG";
 import job from "../Assets/images/job.JPG";
+import weather from "../Assets/images/weather.jpg";
+import notes from "../Assets/images/notes.JPG";
+import planner from "../Assets/images/planner.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "../components/Card";
@@ -16,7 +19,8 @@ class Carousel extends React.Component {
           title: "Betting App",
           subTitle: "Live Score Betting...",
           imgSrc: betting,
-          link: "",
+          link: "https://davidlshonn.github.io/fixture-and-betting-app/",
+          gitHub: "https://github.com/davidlshonn/fixture-and-betting-app/",
           selected: false,
         },
         {
@@ -24,7 +28,8 @@ class Carousel extends React.Component {
           title: "DEV Jobs App",
           subTitle: "Tech Job Portal...",
           imgSrc: job,
-          link: "",
+          link: "https://protected-retreat-49639.herokuapp.com/",
+          gitHub: "https://github.com/davidlshonn/SecondProject/",
           selected: false,
         },
         {
@@ -32,7 +37,35 @@ class Carousel extends React.Component {
           title: "Eat-Da-Burger",
           subTitle: "Restaurant Management...",
           imgSrc: burger,
-          link: "",
+          link: "https://glacial-woodland-94921.herokuapp.com/",
+          gitHub: "https://github.com/davidlshonn/week-15-burger-logger/",
+          selected: false,
+        },
+        {
+          id: 3,
+          title: "Weather App",
+          subTitle: "Forecast Any Location...",
+          imgSrc: weather,
+          link: "https://davidlshonn.github.io/week-6-weather-dashboard/",
+          gitHub: "https://github.com/davidlshonn/week-6-weather-dashboard/",
+          selected: false,
+        },
+        {
+          id: 4,
+          title: "Note Taker",
+          subTitle: "Note Taker...",
+          imgSrc: notes,
+          link: "https://limitless-stream-29500.herokuapp.com/",
+          gitHub: "https://github.com/davidlshonn/week-13-note-taker/",
+          selected: false,
+        },
+        {
+          id: 5,
+          title: "Planner App",
+          subTitle: "Hourly Planner...",
+          imgSrc: planner,
+          link: "https://davidlshonn.github.io/week-5-day-planner/",
+          gitHub: "https://github.com/davidlshonn/week-5-day-planner/",
           selected: false,
         },
       ],
